@@ -144,6 +144,10 @@ p {
 }
 
 .brand-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
 }
