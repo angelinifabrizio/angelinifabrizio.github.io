@@ -128,6 +128,13 @@ p {
 }
 
 .navigation-bar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
+  clear: none;
   background-color: #fff;
 }
 
@@ -189,6 +196,7 @@ p {
 }
 
 .hero-section.centered {
+  position: static;
   padding-top: 195px;
   padding-bottom: 195px;
   border-bottom: 4px none #2973e6;
@@ -438,13 +446,19 @@ p {
   margin-left: 0px;
 }
 
+.body {
+  margin-top: 64px;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     color: hsla(0, 0%, 100%, 0.52);
+    text-align: right;
   }
 
   .navigation-link.w--current {
     color: #fff;
+    text-align: right;
   }
 
   .hamburger-button.w--open {
