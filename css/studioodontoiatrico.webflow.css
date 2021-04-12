@@ -81,7 +81,7 @@ p {
   color: #fff;
   font-size: 16px;
   line-height: 21px;
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 2px;
   text-decoration: none;
@@ -253,9 +253,11 @@ p {
 }
 
 .hollow-button.all-caps {
+  border-width: 4px;
   border-color: #192024;
+  background-color: transparent;
   color: #192024;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -453,12 +455,12 @@ p {
 @media screen and (max-width: 991px) {
   .navigation-link {
     color: hsla(0, 0%, 100%, 0.52);
-    text-align: right;
+    text-align: center;
   }
 
   .navigation-link.w--current {
     color: #fff;
-    text-align: right;
+    text-align: center;
   }
 
   .hamburger-button.w--open {
